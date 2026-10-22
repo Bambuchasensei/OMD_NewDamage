@@ -2182,11 +2182,6 @@ class OMD_NewDamageConfig
 			return false;
 		}
 
-		if (data.debugEnabled)
-		{
-			return true;
-		}
-
 		return data.globalHpLogEnabled;
 	}
 
@@ -2198,11 +2193,6 @@ class OMD_NewDamageConfig
 		if (!data)
 		{
 			return false;
-		}
-
-		if (data.debugEnabled)
-		{
-			return true;
 		}
 
 		return data.hitCalibrationLogEnabled;
