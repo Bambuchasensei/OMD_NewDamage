@@ -30,4 +30,5 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 .vscode/
-.idea/
+.idea/*.bak-*
+*.round*.bak
