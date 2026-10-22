@@ -1,38 +1,57 @@
 # OMD NewDamage
 
-Новая модель повреждений для DayZ: органы, артерии, тупые травмы и смерть от потери крови и шока вместо «общего HP».
+Новая модель повреждений для DayZ: органы, артерии и тупые травмы вместо «общего HP».
 
-![DayZ](https://img.shields.io/badge/DayZ-1.2x-red)
-![Enforce Script](https://img.shields.io/badge/language-Enforce%20Script-blue)
+![Version](https://img.shields.io/badge/version-0.1.0-blue)
 ![Status](https://img.shields.io/badge/status-in%20development-orange)
+![Enforce Script](https://img.shields.io/badge/language-Enforce%20Script-blue)
 
-> **TL;DR (EN):** A reworked damage model for DayZ. Instead of dying from a global health bar, characters suffer damage to **organs** (brain, heart, lungs, liver, spleen, guts, face) and **arteries**, with blunt trauma, reworked fall/vehicle/melee damage and bleeding. Includes a "press the wound" first-aid action (self and on others), organ status HUD icons, heartbeat sound and screen effects. Server-configurable via JSON. Written in Enforce Script.
+> **TL;DR (EN):** A reworked damage model for DayZ. Instead of a single global health bar, characters suffer damage to **organs** (brain, face, heart, lungs, liver, spleen, guts), with organ status HUD icons, reworked fall, melee and creature damage, heartbeat sound and screen effects. Server-configurable via JSON. Client mod + closed-source server part; without the server part the game falls back to vanilla behaviour. Written in Enforce Script.
 
 ## Возможности
 
-- **Органы вместо общего HP:** мозг, лицо, сердце, лёгкие, печень, селезёнка, кишечник. Состояние каждого органа показывается иконкой на HUD с уровнями тяжести.
-- **Артериальные кровотечения и «зажать рану»:** новое действие на себе и на другом игроке — зажать рану на голове, торсе, руках, кистях, ногах, стопах, а также сонную, бедренную и подключичную артерии.
-- **Тупые травмы** с отдельными настройками.
-- **Переработанный урон:** падения, транспорт (машины, мотоциклы, лодки, выпрыгивание на ходу), ближний бой; отдельные настройки для оружия и существ.
-- **Атмосфера:** звук сердцебиения, эффекты экрана (размытие, свечение) в зависимости от состояния, влияние ранений на прицеливание.
+- **Органы вместо общего HP:** мозг, лицо, сердце, лёгкие, печень, селезёнка, кишечник.
+- **HUD:** иконки состояния органов с уровнями тяжести.
+- **Переработанный урон** от падений, ближнего боя и существ.
+- **Эффекты:** звук сердцебиения, эффекты экрана (размытие, свечение) в зависимости от состояния.
 - Интеграция с болью Inedia и медициной/навыками Terje через `OMD_Bridge`.
+
+## В тестировании
+
+Эти механики реализованы, но ещё не подтверждены тестами:
+
+- огнестрельные ранения;
+- бронежилет и тупая травма;
+- урон при аварии транспорта;
+- выпрыгивание из транспорта на ходу;
+- действие «зажать рану» (на себе и на другом игроке, включая артерии);
+- сохранение состояния после переподключения.
 
 ## Требования
 
 - DayZ (клиент и сервер)
 - [OMD Bridge](https://github.com/Bambuchasensei/OMD_Bridge)
-- Inedia Infected AI — `InediaInfectedAI`
+- Inedia Infected AI (`InediaInfectedAI`)
 - Terje: `TerjeCore`, `TerjeMedicine`, `TerjeSkills`
+
+## Архитектура
+
+Мод состоит из двух частей:
+
+- **клиентская часть** (этот репозиторий) — подключается через `-mod=` на клиенте и сервере;
+- **серверная часть** `OMD_NewDamage_Server` — подключается на сервере через `-serverMod=`. Исходники серверной части закрыты.
+
+Без `OMD_NewDamage_Server` мод откатывается к ванильному поведению урона.
 
 ## Установка
 
 1. Подпишитесь на зависимости и на этот мод.
-2. Добавьте мод в `-mod=` клиента и сервера после Inedia, Terje и `OMD_Bridge`.
-3. Серверная логика вынесена в отдельный приватный репозиторий (`OMD_NewDamage_Server`) и ставится только на сервер.
+2. Добавьте `OMD_NewDamage` в `-mod=` клиента и сервера после Inedia, Terje и `OMD_Bridge`.
+3. Добавьте `OMD_NewDamage_Server` в `-serverMod=` сервера.
 
 ## Конфигурация
 
-При первом запуске в `%profile%/omd/` создаются JSON-файлы:
+При первом запуске в папке профиля сервера (`omd/`) создаются JSON-файлы:
 
 | Файл | Назначение |
 |---|---|
@@ -66,10 +85,15 @@ _Скоро._
 <!-- TODO: ссылка на мастерскую Steam -->
 _Мод пока не опубликован в мастерской._
 
-## Автор
+## Авторы
 
-**Bambuchasensei** — разработка и дизайн механик для сообщества и сервера **One More DayZ (OMD)**.
+- **Comrad-Sensei** ([Bambuchasensei](https://github.com/Bambuchasensei))
+- **mmetrjuk**
+
+Сообщество и сервер **One More DayZ (OMD)**.
+
+Thanks to Inedia and Terje.
 
 ## Лицензия
 
-All rights reserved. Код и ассеты опубликованы для ознакомления (портфолио). Использование, копирование и перезалив — только с разрешения автора.
+All rights reserved. Код и ассеты опубликованы для ознакомления (портфолио). Использование, копирование и перезалив — только с разрешения авторов.
