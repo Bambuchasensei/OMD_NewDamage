@@ -1,0 +1,33 @@
+# Сборка и упаковка
+*.pbo
+*.ebo
+*.bisign
+*.bikey
+*.biprivatekey
+@*/
+build/
+dist/
+*.zip
+*.rar
+*.7z
+
+# Логи и временные файлы DayZ Tools / Workbench
+*.log
+*.rpt
+*.mdmp
+*.bak
+*.tmp
+*~
+.workbench/
+
+# Секреты и локальные настройки
+.env
+*.key
+*.pem
+
+# ОС и редакторы
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/

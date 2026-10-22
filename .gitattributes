@@ -1,0 +1,12 @@
+* text=auto eol=crlf
+*.c text eol=crlf
+*.cpp text eol=crlf
+*.layout text eol=crlf
+*.csv text eol=crlf
+*.md text eol=crlf
+*.paa binary
+*.p3d binary
+*.ogg binary
+*.anm binary
+*.bisurf binary
+*.png binary

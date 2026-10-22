@@ -1,0 +1,11 @@
+name = "OMD NewDamage";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "OMD NewDamage — organ/blood/shock death instead of global HP";
+overview = "Calibration and vital damage systems for One More DayZ.";
+action = "";
+author = "OMD";
+authorID = "0";
+version = "0.1.0";

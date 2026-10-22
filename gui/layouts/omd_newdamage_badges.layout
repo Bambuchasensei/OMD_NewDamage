@@ -1,0 +1,766 @@
+FrameWidgetClass OMD_NewDamage_BadgeRoot {
+	visible 0
+	ignorepointer 1
+	{
+		FrameWidgetClass omd_heart_frame {
+			visible 0
+			ignorepointer 1
+			position 44 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_heart_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_heart_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_heart_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_spleen_frame {
+			visible 0
+			ignorepointer 1
+			position 176 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_spleen_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_spleen_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_spleen_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_lungL_frame {
+			visible 0
+			ignorepointer 1
+			position 88 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lung_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lung_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lung_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_lungR_frame {
+			visible 0
+			ignorepointer 1
+			position 132 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lungR_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lungR_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_lungR_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_guts_frame {
+			visible 0
+			ignorepointer 1
+			position 264 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_guts_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_guts_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_guts_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_liver_frame {
+			visible 0
+			ignorepointer 1
+			position 220 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_liver_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_liver_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_liver_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_face_frame {
+			visible 0
+			ignorepointer 1
+			position 0 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_face_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_face_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_face_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_brain_frame {
+			visible 0
+			ignorepointer 1
+			position 308 0
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass IconY {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_brain_y.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconO {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_brain_o.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass IconR {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_brain_r.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_artery_head_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/head.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Artery {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_artery.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_artery_torso_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/torso.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Artery {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_artery.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_artery_arms_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Artery {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_artery.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_artery_legs_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Artery {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_NewDamage/gui/badges/omd_icon_artery.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_tint_head_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Tint {
+					visible 1
+					color 0.898 0.784 0.290 0.55
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/head.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_tint_torso_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Tint {
+					visible 1
+					color 0.898 0.784 0.290 0.55
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/torso.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_tint_arms_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Tint {
+					visible 1
+					color 0.898 0.784 0.290 0.55
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass omd_tint_legs_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Tint {
+					visible 1
+					color 0.898 0.784 0.290 0.55
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+	}
+}
